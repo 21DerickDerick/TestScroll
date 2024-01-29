@@ -11,6 +11,16 @@
 		8F700AFA2B5E997E004A02D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700AF92B5E997E004A02D5 /* ContentView.swift */; };
 		8F700AFC2B5E9980004A02D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F700AFB2B5E9980004A02D5 /* Assets.xcassets */; };
 		8F700AFF2B5E9980004A02D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F700AFE2B5E9980004A02D5 /* Preview Assets.xcassets */; };
+		8F700B152B64C483004A02D5 /* ScrollBounceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B142B64C483004A02D5 /* ScrollBounceBehavior.swift */; };
+		8F700B172B64C807004A02D5 /* ContentMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B162B64C807004A02D5 /* ContentMargins.swift */; };
+		8F700B192B64D282004A02D5 /* SafeAreaPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B182B64D282004A02D5 /* SafeAreaPadding.swift */; };
+		8F700B1B2B64D28F004A02D5 /* ScrollIndicatorFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B1A2B64D28F004A02D5 /* ScrollIndicatorFlash.swift */; };
+		8F700B1D2B64D72E004A02D5 /* ScrollClipDisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B1C2B64D72E004A02D5 /* ScrollClipDisable.swift */; };
+		8F700B1F2B64DC2D004A02D5 /* DefaultScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B1E2B64DC2D004A02D5 /* DefaultScrollPosition.swift */; };
+		8F700B212B64E09A004A02D5 /* ScrollPositionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B202B64E09A004A02D5 /* ScrollPositionId.swift */; };
+		8F700B232B64E70E004A02D5 /* ScrollTargetBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B222B64E70E004A02D5 /* ScrollTargetBehavior.swift */; };
+		8F700B252B6649CC004A02D5 /* NamedCoordinatedSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B242B6649CC004A02D5 /* NamedCoordinatedSpace.swift */; };
+		8F700B272B664C1A004A02D5 /* ScrollTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F700B262B664C1A004A02D5 /* ScrollTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		8F700AF92B5E997E004A02D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F700AFB2B5E9980004A02D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F700AFE2B5E9980004A02D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F700B142B64C483004A02D5 /* ScrollBounceBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBounceBehavior.swift; sourceTree = "<group>"; };
+		8F700B162B64C807004A02D5 /* ContentMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMargins.swift; sourceTree = "<group>"; };
+		8F700B182B64D282004A02D5 /* SafeAreaPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaPadding.swift; sourceTree = "<group>"; };
+		8F700B1A2B64D28F004A02D5 /* ScrollIndicatorFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollIndicatorFlash.swift; sourceTree = "<group>"; };
+		8F700B1C2B64D72E004A02D5 /* ScrollClipDisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollClipDisable.swift; sourceTree = "<group>"; };
+		8F700B1E2B64DC2D004A02D5 /* DefaultScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScrollPosition.swift; sourceTree = "<group>"; };
+		8F700B202B64E09A004A02D5 /* ScrollPositionId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionId.swift; sourceTree = "<group>"; };
+		8F700B222B64E70E004A02D5 /* ScrollTargetBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTargetBehavior.swift; sourceTree = "<group>"; };
+		8F700B242B6649CC004A02D5 /* NamedCoordinatedSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedCoordinatedSpace.swift; sourceTree = "<group>"; };
+		8F700B262B664C1A004A02D5 /* ScrollTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 		8F700AF62B5E997E004A02D5 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				8F700B132B64C473004A02D5 /* Modifiers */,
 				8F700AF72B5E997E004A02D5 /* TestProjectApp.swift */,
 				8F700AF92B5E997E004A02D5 /* ContentView.swift */,
 				8F700AFB2B5E9980004A02D5 /* Assets.xcassets */,
@@ -65,6 +86,23 @@
 				8F700AFE2B5E9980004A02D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F700B132B64C473004A02D5 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8F700B142B64C483004A02D5 /* ScrollBounceBehavior.swift */,
+				8F700B162B64C807004A02D5 /* ContentMargins.swift */,
+				8F700B182B64D282004A02D5 /* SafeAreaPadding.swift */,
+				8F700B1A2B64D28F004A02D5 /* ScrollIndicatorFlash.swift */,
+				8F700B1C2B64D72E004A02D5 /* ScrollClipDisable.swift */,
+				8F700B1E2B64DC2D004A02D5 /* DefaultScrollPosition.swift */,
+				8F700B202B64E09A004A02D5 /* ScrollPositionId.swift */,
+				8F700B222B64E70E004A02D5 /* ScrollTargetBehavior.swift */,
+				8F700B242B6649CC004A02D5 /* NamedCoordinatedSpace.swift */,
+				8F700B262B664C1A004A02D5 /* ScrollTransition.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +177,16 @@
 			files = (
 				8F700AFA2B5E997E004A02D5 /* ContentView.swift in Sources */,
 				8F700AF82B5E997E004A02D5 /* TestProjectApp.swift in Sources */,
+				8F700B252B6649CC004A02D5 /* NamedCoordinatedSpace.swift in Sources */,
+				8F700B212B64E09A004A02D5 /* ScrollPositionId.swift in Sources */,
+				8F700B232B64E70E004A02D5 /* ScrollTargetBehavior.swift in Sources */,
+				8F700B192B64D282004A02D5 /* SafeAreaPadding.swift in Sources */,
+				8F700B1F2B64DC2D004A02D5 /* DefaultScrollPosition.swift in Sources */,
+				8F700B272B664C1A004A02D5 /* ScrollTransition.swift in Sources */,
+				8F700B1B2B64D28F004A02D5 /* ScrollIndicatorFlash.swift in Sources */,
+				8F700B1D2B64D72E004A02D5 /* ScrollClipDisable.swift in Sources */,
+				8F700B152B64C483004A02D5 /* ScrollBounceBehavior.swift in Sources */,
+				8F700B172B64C807004A02D5 /* ContentMargins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
