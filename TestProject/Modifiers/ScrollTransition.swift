@@ -21,14 +21,14 @@ struct ScrollTransitionView: View {
                         .foregroundColor(.white)
                         .scrollTransition(.animated) { content, phase in
                             content
-                                .scaleEffect(phase == .identity ? 1 : 0.6)
-                                .opacity(phase == .identity ? 1 : 0.3)
-                                .rotationEffect(Angle(degrees: phase != .identity ? 180 : 0))
+                                //.scaleEffect(phase == .identity ? 1 : 0.6)
+//                                .opacity(phase == .identity ? 1 : 0.3)
+//                                .rotationEffect(Angle(degrees: phase != .identity ? 180 : 0))
                         }
                 }
             }
             .frame(height: 416)
-            .scrollClipDisabled(false)
+            //.scrollClipDisabled(true)
         }
         .border(.white)
         .frame(maxWidth: .infinity, maxHeight: .infinity)

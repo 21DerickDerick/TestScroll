@@ -18,7 +18,7 @@ struct ScrollBounceBehaviorView: View {
     
     var body: some View {
         ScrollView {
-            ForEach(numbers1, id: \.self) { number in
+            ForEach(numbers2, id: \.self) { number in
                 Text(number)
                     .frame(width: 80, height: 40)
                     .foregroundColor(.blue)
@@ -28,7 +28,7 @@ struct ScrollBounceBehaviorView: View {
             .background(Color.white)
             .cornerRadius(15)
         }
-        .scrollBounceBehavior(.always, axes: .vertical)
+        //.scrollBounceBehavior(.always, axes: .vertical)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue)
     }

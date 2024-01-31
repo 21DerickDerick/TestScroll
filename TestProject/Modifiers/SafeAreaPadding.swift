@@ -10,7 +10,7 @@ import SwiftUI
 /*
  Introduced: iOS 15
  */
-struct SafeAreaPaddingView: View {
+struct SafeAreaInsetView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             ScrollView {
@@ -65,7 +65,7 @@ struct SafeAreaPaddingView2: View {
 
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        SafeAreaPaddingView()
+        SafeAreaInsetView()
             .previewInterfaceOrientation(.portrait)
         
         SafeAreaPaddingView2()

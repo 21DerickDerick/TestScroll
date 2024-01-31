@@ -23,7 +23,7 @@ struct ScrollPositionIDView: View {
                 HStack(spacing: 8) {
                     ForEach(numbers, id: \.self) { number in
                         Text(number)
-                            .id(Int(number))
+                            //.id(Int(number))
                             .frame(width: 80, height: 40)
                             .foregroundColor(.blue)
                             .padding()
@@ -33,7 +33,7 @@ struct ScrollPositionIDView: View {
                 }
             }
             .scrollTargetLayout()
-            .scrollPosition(id: $position)
+            //.scrollPosition(id: $position)
             .frame(height: 100)
             .border(.white)
             
@@ -42,9 +42,9 @@ struct ScrollPositionIDView: View {
         .contentMargins(.horizontal, 16, for: .scrollContent)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue)
-        .onAppear(perform: {
-            position = 1
-        })
+//        .onAppear(perform: {
+//            position = 1
+//        })
     }
 }
 

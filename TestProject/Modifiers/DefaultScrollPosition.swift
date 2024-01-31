@@ -32,7 +32,7 @@ struct DefaultScrollPositionView: View {
                 }
             }
             .scrollTargetLayout()
-            .defaultScrollAnchor(.leading)
+            //.defaultScrollAnchor(.leading)
             .frame(height: 100)
             .border(.white)
             

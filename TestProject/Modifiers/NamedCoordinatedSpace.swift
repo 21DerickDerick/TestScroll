@@ -20,8 +20,8 @@ struct NamedCoordinatedSpaceView: View {
                     .foregroundColor(.white)
                     .overlay(
                         GeometryReader { proxy in
-                            if let distanceFromTop = proxy.bounds(of: .named("MyScrollView"))?.minY {
-                            //if let distanceFromTop = proxy.bounds(of: .scrollView)?.minY {
+//                            if let distanceFromTop = proxy.bounds(of: .named("MyScrollView"))?.minY {
+                            if let distanceFromTop = proxy.bounds(of: .scrollView)?.minY {
                                 Text(distanceFromTop * -1, format: .number)
                                     .foregroundStyle(.blue)
                             }
@@ -32,8 +32,8 @@ struct NamedCoordinatedSpaceView: View {
         .border(.white)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue)
-        .contentMargins(30, for: .scrollContent)
-        .coordinateSpace(.named("MyScrollView"))
+        //.contentMargins(30, for: .scrollContent)
+        //.coordinateSpace(.named("MyScrollView"))
     }
 }
 

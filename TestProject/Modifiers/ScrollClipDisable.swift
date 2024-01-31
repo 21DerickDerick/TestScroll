@@ -30,12 +30,12 @@ struct ScrollClipDisableView: View {
                     }
                     .background(Color.white)
                     .cornerRadius(15)
-                    .shadow(color: .primary, radius: 50)
+                    //.shadow(color: .primary, radius: 50)
                 }
             }
             .frame(width: 200, height: 100)
             .border(.white)
-            .scrollClipDisabled()
+            //.scrollClipDisabled()
             Spacer()
         }
         .contentMargins(.horizontal, 16, for: .scrollContent)

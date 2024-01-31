@@ -31,15 +31,15 @@ struct ContentMarginsView: View {
                     .background(Color.white)
                     .cornerRadius(15)
                 }
-                //.padding([.leading, .trailing], 32)
+                //.padding([.leading, .trailing], 16)
             }
             .frame(height: 100)
             .border(.white)
             
             Spacer()
         }
-//        .contentMargins(.horizontal, 32, for: .scrollContent)
-//        .contentMargins(.vertical, 16, for: .scrollContent)
+        //.contentMargins(.horizontal, 16, for: .scrollContent)
+        .contentMargins(.vertical, 16, for: .scrollContent)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue)
     }
@@ -51,22 +51,15 @@ struct ContentMarginsView2: View {
     
     var body: some View {
         VStack {
-//            HStack {
-//                Text("Description")
-//                    .padding(.leading, 16)
-//                Spacer()
-//            }
-            
             TextEditor(text: $text)
                 .frame(width: 300, height: 300)
                 .border(.gray, width: 2)
                 .cornerRadius(15)
                 //.padding([.top, .leading], 100)
-                .contentMargins(.all, 32, for: .scrollContent)
+                //.contentMargins(.all, 16, for: .scrollContent)
             
             Spacer()
         }
-        //.contentMargins(.horizontal, 32, for: .scrollContent)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.blue)
     }
